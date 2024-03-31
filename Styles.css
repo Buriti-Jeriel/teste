@@ -1,0 +1,77 @@
+
+
+/* Define a fonte e o espaçamento do documento */
+body {
+    font-family: Arial, sans-serif; /* Cor aplicada no texto */
+    margin: 0; /*  Margens externas */
+    padding: 0; /* Preenchimento interno */
+}
+
+/* Estilos aplicados do cabeçalho e do rodapé da pagina */
+header, footer {
+    background-color: #333; /* cor de fundo */
+    color: #fff; /* cor aplicado no texto */
+    padding: 10px 0; /* Preenchimento definido para espaço superior e inferior */
+    text-align: center; /* aplicado alinhamento dos textos ao centro */
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove preenchimento interno */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Adiciona margem à direita para separar os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove a decoração de sublinhado */
+}
+
+/* Estilos das seções */
+section {
+    margin: 10px; /* Adiciona margem ao redor das seções */
+}
+
+/* Estilos do formulário de contato */
+form {
+    max-width: 400px; /* largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário de forma horizontal */
+    margin-left: 0px; /* Adiciona uma margem à esquerda */
+}
+
+form label {
+    display: block; /* Define os rótulos como blocos */
+    margin-bottom: 5px; /* Margem inferior para separar os rótulos */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; /* largura total dos campos de entrada */
+    padding: 10px; /* Preenchimento interno */
+    margin-bottom: 10px; /* Margem inferior para separar os campos */
+    border: 1px solid #ccc; /* adicionado uma borda */
+    border-radius: 5px; /*Bordas levemente arredondadas */
+}
+
+form textarea {
+    height: 100px; /* Define a altura do campo de texto */
+}
+
+form button {
+    background-color: #333; /* cor de fundo do botão */
+    color: #fff; /* cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+form button:hover {
+    background-color: #555; /* Altera a cor de fundo ao passar sobre o botão */
+}
